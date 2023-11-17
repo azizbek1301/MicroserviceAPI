@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.API", "Microservice.API\Microservice.API.csproj", "{DCD25D56-8B31-4B03-ACC8-E97134FC4135}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53814E13-022B-4090-B20F-C2A62D17EFF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService", "CatalogService", "{B0FEC264-D56C-4722-9166-2D0344D14ACC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{83FD94A7-A864-4EE8-9CA1-77C3B6114F6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiscountService", "DiscountService", "{E8CA78D6-246F-4034-9531-F4DE4D67C222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BacketService", "BacketService", "{2B52BBAB-7886-41BD-B55A-474314F22E1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD25D56-8B31-4B03-ACC8-E97134FC4135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD25D56-8B31-4B03-ACC8-E97134FC4135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD25D56-8B31-4B03-ACC8-E97134FC4135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD25D56-8B31-4B03-ACC8-E97134FC4135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCD25D56-8B31-4B03-ACC8-E97134FC4135} = {53814E13-022B-4090-B20F-C2A62D17EFF6}
+		{B0FEC264-D56C-4722-9166-2D0344D14ACC} = {53814E13-022B-4090-B20F-C2A62D17EFF6}
+		{83FD94A7-A864-4EE8-9CA1-77C3B6114F6F} = {53814E13-022B-4090-B20F-C2A62D17EFF6}
+		{E8CA78D6-246F-4034-9531-F4DE4D67C222} = {53814E13-022B-4090-B20F-C2A62D17EFF6}
+		{2B52BBAB-7886-41BD-B55A-474314F22E1B} = {53814E13-022B-4090-B20F-C2A62D17EFF6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9604704D-34AC-468E-975E-329E087FDFF0}
+	EndGlobalSection
+EndGlobal
